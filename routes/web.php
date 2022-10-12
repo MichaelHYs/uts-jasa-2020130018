@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MainController;
+use App\Http\Controllers\ServicesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,5 +16,7 @@ use App\Http\Controllers\MainController;
 */
 
 Route::get('/', [MainController::class,'index'])->name('home');
-Route::get('/services', function(){return view('services');});
+// Route::get('/services', function(){return view('services');});
+Route::get('/services', ServicesController::class)->name('services');
+Route::get('/testimonials', function(){return view('testimonials');});
 

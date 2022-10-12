@@ -8,6 +8,9 @@
     <title>@yield('title', 'Fox Hotel') | Fox Hotel</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 </head>
 
 <body class="text-center">
@@ -18,7 +21,7 @@
                 <nav class="nav justify-content-center nav-masthead">
                     <a class="nav-link active" href="{{ route('home') }}">Home</a>
                     <a class="nav-link active" href="/services">Services</a>
-                    <a class="nav-link active" href="{{ route('home') }}">Testimonials</a>
+                    <a class="nav-link active" href="/testimonials">Testimonials</a>
                     <a class="nav-link active" href="{{ route('home') }}">About</a>
                 </nav>
             </div>
