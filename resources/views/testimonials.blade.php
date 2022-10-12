@@ -1,72 +1,86 @@
-@include('layout.head',['title' => 'Home'])
-    <div id="carousel-reviews" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <div class="card">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="block-text rel zmin">
-                            <a title="" href="#">Hercules</a>
-                            <div class="mark">My rating: <span class="rating-input"><span data-value="0"
-                                        class="glyphicon glyphicon-star"></span><span data-value="1"
-                                        class="glyphicon glyphicon-star"></span><span data-value="2"
-                                        class="glyphicon glyphicon-star"></span><span data-value="3"
-                                        class="glyphicon glyphicon-star"></span><span data-value="4"
-                                        class="glyphicon glyphicon-star-empty"></span><span data-value="5"
-                                        class="glyphicon glyphicon-star-empty"></span> </span></div>
-                            <p>Never before has there been a good film portrayal of ancient Greece's favourite myth. So why
-                                would Hollywood start now? This latest attempt at bringing the son of Zeus to the big screen
-                                is
-                                brought to us by X-Men: The last Stand director Brett Ratner. If the name of the director
-                                wasn't
-                                enough to dissuade ...</p>
-                            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                        </div>
-                        <div class="person-text rel">
-                            <img src="" />
-                            <a title="" href="#">Anna</a>
-                            <i>from Glasgow, Scotland</i>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="carousel-item">
-                <div class="col-md-4 col-sm-6 hidden-xs">
-                    <div class="block-text rel zmin">
-                        <a title="" href="#">The Purge: Anarchy</a>
-                        <div class="mark">My rating: <span class="rating-input"><span data-value="0"
-                                    class="glyphicon glyphicon-star"></span><span data-value="1"
-                                    class="glyphicon glyphicon-star"></span><span data-value="2"
-                                    class="glyphicon glyphicon-star-empty"></span><span data-value="3"
-                                    class="glyphicon glyphicon-star-empty"></span><span data-value="4"
-                                    class="glyphicon glyphicon-star-empty"></span><span data-value="5"
-                                    class="glyphicon glyphicon-star-empty"></span> </span></div>
-                        <p>The 2013 movie "The Purge" left a bad taste in all of our mouths as nothing more than a
-                            pseudo-slasher with a hamfisted plot, poor pacing, and a desperate attempt at "horror." Upon
-                            seeing the first trailer for "The Purge: Anarchy," my first and most immediate thought was "we
-                            really don't need another one of these." </p>
-                        <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-                    </div>
-                    <div class="person-text rel">
-                        <img src="" />
-                        <a title="" href="#">Ella Mentree</a>
-                        <i>United States</i>
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-            </div>
+@include('layout.head', ['title' => 'Home'])
+<hr class="featurette-divider">
+<div class="row">
+    <div class="col-lg-4">
+        <div class="card">
+            <img src="img/obama.jpeg">
+            <h2>Heading</h2>
+            <p>mantap coek, privasi terjamin !</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
-    @include('layout.foot')
+    <div class="col-lg-4">
+        <div class="card">
+            <img src="img/obama.jpeg">
+            <h2>Heading</h2>
+            <p>kapan buka cabang di papua?</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+        <div class="card">
+            <img src="img/obama.jpeg">
+            <h2>Heading</h2>
+            <p>service complete, harga terjangkau</p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+        </div>
+    </div><!-- /.col-lg-4 -->
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">First featurette heading. <span class="text-bold">It’ll blow your mind.</span>
+        </h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
+            here.</p>
+    </div>
+    <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
+                dy=".3em">500x500</text>
+        </svg>
+
+    </div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">First featurette heading. <span class="text-bold">It’ll blow your mind.</span>
+        </h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
+            here.</p>
+    </div>
+    <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
+                dy=".3em">500x500</text>
+        </svg>
+
+    </div>
+</div>
+<hr class="featurette-divider">
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">First featurette heading. <span class="text-bold">It’ll blow your mind.</span>
+        </h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose
+            here.</p>
+    </div>
+    <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500"
+            preserveAspectRatio="xMidYMid slice" focusable="false">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa"
+                dy=".3em">500x500</text>
+        </svg>
+
+    </div>
+</div>
+@include('layout.foot')

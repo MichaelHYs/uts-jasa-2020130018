@@ -8,6 +8,8 @@
     <title>@yield('title', 'Fox Hotel') | Fox Hotel</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="./index.js"></script>
 
 </head>
 
