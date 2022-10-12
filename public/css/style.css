@@ -1,3 +1,7 @@
+/*
+* Globals
+*/
+/* Links */
 a,
 a:focus,
 a:hover {
@@ -15,6 +19,9 @@ a:hover {
     border: .05rem solid #fff;
 }
 
+/*
+* Base
+*/
 html,
 body {
     height: 100%;
@@ -82,8 +89,8 @@ body {
 }
 
 /*
- * Content
- */
+* Content
+*/
 .cover {
     padding: 0 1.5rem;
 }
@@ -94,11 +101,12 @@ body {
 }
 
 /*
- * Footer
- */
+* Footer
+*/
 .mastfoot {
     color: rgba(255, 255, 255, .5);
 }
+
 /* Review */
 .carousel-control.left,.carousel-control.right  {background:none;width:25px;}
 .carousel-control.left {left:-25px;}
