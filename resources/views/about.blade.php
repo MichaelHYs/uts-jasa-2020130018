@@ -1,4 +1,4 @@
-@include('layout.head', ['title' => 'about'])
+@include('layout.head', ['title' => 'About'])
 <hr class="featurette-divider">
         <h1>
             How you can contact us ?

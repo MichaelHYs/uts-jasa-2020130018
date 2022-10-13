@@ -36,5 +36,5 @@
             <span class="carousel-control-next-icon"></span>
         </a>
     </div>
-
+    <hr class="featurette-divider">
 @endsection

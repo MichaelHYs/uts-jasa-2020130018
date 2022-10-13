@@ -1,10 +1,10 @@
 @include('layout.head', ['title' => 'Home'])
 <div class="text-center">
     <hr class="featurette-divider">
-    <h1 class="cover-heading">Hello!</h1>
-    <p class="lead">
-        MyCompany is a multi-disciplinary, independently-owned design studio.
-    </p>
+    <h1 class="btn btn-primary">Book your stay</h1>
+    <h1>
+        We have the best hospitality and prices at the same time!.
+    </h1>
     <hr class="featurette-divider">
     <h4 class="text-center">
         We guerantee you will be have the best experience of traveling. High class Hospitality with affordable prices.
