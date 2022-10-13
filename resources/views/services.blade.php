@@ -1,6 +1,7 @@
 @extends('layout.master')
 @section('title', 'Services')
 @section('content')
+<hr class="featurette-divider">
     <h1 class="cover-heading">Birthday Sale</h1>
     <p class="lead">
         Enjoy up to 25% off Rooms & Suites our Extraordinary Package and enjoy one extra night on us
@@ -8,9 +9,8 @@
     <p class="text-Center">
         We offer our best facility and services
     </p>
-
+    <hr class="featurette-divider">
     <div id="demo" class="carousel slide" data-ride="carousel">
-        {{-- Indikator carousel --}}
         <ul class="carousel-indicators">
             @forelse ($carousels as $key => $carousel)
                 <li data-target="#demo" data-slide-to="{{ $key }}" class="{{ $key == 0 ? 'active' : '' }}"></li>
@@ -18,7 +18,6 @@
                 <li data-target="#demo" data-slide-to="0" class="active">
             @endforelse
         </ul>
-        {{-- Carousel content --}}
         <div class="carousel-inner">
             @forelse ($carousels as $key => $carousel)
                 <div class="carousel-item {{ $key == 0 ? 'active' : '' }}">
@@ -30,7 +29,6 @@
                 </div>
             @endforelse
         </div>
-        {{-- Carousel button --}}
         <a class="carousel-control-prev" href="#demo" data-slide="prev">
             <span class="carousel-control-prev-icon"></span>
         </a>
