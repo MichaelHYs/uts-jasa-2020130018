@@ -20,9 +20,9 @@
                 <div class="text-center"><img src="img/logo.png" height="200"></div>
                 <nav class="nav justify-content-center nav-masthead">
                     <a class="nav-link active" href="{{ route('home') }}">Home</a>
-                    <a class="nav-link active" href="/services">Services</a>
+                    <a class="nav-link active" href="{{ route('services') }}">Services</a>
                     <a class="nav-link active" href="/testimonials">Testimonials</a>
-                    <a class="nav-link active" href="{{ route('home') }}">About</a>
+                    <a class="nav-link active" href="/about">About</a>
                 </nav>
             </div>
         </header>
@@ -38,6 +38,8 @@
         </footer>
     </div>
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
 </body>
 
 </html>

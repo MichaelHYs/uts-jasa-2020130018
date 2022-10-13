@@ -19,4 +19,5 @@ Route::get('/', [MainController::class,'index'])->name('home');
 // Route::get('/services', function(){return view('services');});
 Route::get('/services', ServicesController::class)->name('services');
 Route::get('/testimonials', function(){return view('testimonials');});
+Route::get('/about', function(){return view('about');});
 

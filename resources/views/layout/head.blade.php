@@ -8,10 +8,11 @@
     <title>{{$title}} | Fox Hotel</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 </head>
 
-<body class="text-center">
+<body class="text-center text-white">
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
         <header class="masthead mb-auto mr-auto ml-auto">
             <div class="inner">
@@ -20,7 +21,7 @@
                     <a class="nav-link active" href="{{ route('home') }}">Home</a>
                     <a class="nav-link active" href="/services">Services</a>
                     <a class="nav-link active" href="/testimonials">Testimonials</a>
-                    <a class="nav-link active" href="{{ route('home') }}">About</a>
+                    <a class="nav-link active" href="/about">About</a>
                 </nav>
             </div>
         </header>
